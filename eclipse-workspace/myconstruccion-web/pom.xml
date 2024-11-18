@@ -45,6 +45,13 @@
   <build>
     <finalName>myconstruccion-web</finalName>
   </build>
+  <distributionManagement>
+    <repository>
+        <!-- El id debe coincidir con el id en la sección <servers> -->
+        <id>art1</id>
+        <url>https://192.168.153.1:8082/artifactory/libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
 
 
